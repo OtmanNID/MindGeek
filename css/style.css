@@ -1,0 +1,197 @@
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	transition: all 0.3s ease;
+}
+body {
+	font-family: 'Open Sans';
+	font-size: 1.8rem;
+	line-height: 1.6;
+	color: #7f8081;
+	background-image: url("../img/fond.png");
+}
+main {
+	max-width: 80%;
+	margin: 0 auto;
+}
+
+html {font-size: 62.5%}
+
+h1, h2, h3 {
+	font-family: 'Candal', sans-serif;
+}
+
+nav {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 35px 0;
+}
+nav img {
+	width: 70%;
+}
+
+nav a {
+	text-decoration: none;
+	font-family: 'Candal', sans-serif;
+	color: #1f3c4a;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+nav a:hover i {
+	transform: translateY(50px);
+}
+
+nav a:hover .span-header {
+	transform: translateY(-50px);
+}
+
+nav a i {
+	color: #fb8d9a;
+}
+
+#presentation {
+	background-image: url(../img/background.jpg);
+	background-size: contain;
+	text-align: center;
+	padding: 100px 0;
+	color: white;
+}
+#presentation h1 {
+	font-size: 3em;
+}
+
+#presentation p {
+	padding: 0px 100px 100px;
+}
+form input {
+	background-color: #fb8b9b;
+	width: 100%;
+    padding: 15px 110px;
+    color: white;
+}
+
+.solutions {
+	text-align: center;
+	margin: 70px 0px;
+}
+
+.solutions-flex {
+	display: flex;
+	justify-content: space-around;
+}
+.solutions-flex a {
+	text-decoration: none;
+	display: flex;
+	flex-direction: column;
+	color: #fb8b9b;
+
+}
+.solutions-flex .fas {
+	font-size: 2em;
+	padding: 15px 0;
+}
+
+.solutions-flex article i, h3, .prix {
+	color: #fb8b9b;
+}
+.prix {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+h2 {
+	color: #22404e;
+	padding: 25px 0 25px;
+	margin-bottom: 70px;
+	border-top: 1px dashed black;
+	border-right: 1px dashed black;
+	border-left: 1px dashed black;
+}
+main section article {
+	width: 25%;
+}
+
+
+
+/*=========== MUTUALISE ===========*/
+
+.mutualise-cadre {
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.solutions-flex article ul {
+	text-align: left;
+	padding-left: 50px;
+}
+
+.mutualise-cadre div article h3 {
+	color: white;
+	background-color: #213e4e;
+	padding: 27px;
+}
+.mutualise-cadre div article {
+	width: 31%;
+	padding: 30px 20px;
+	border: 0.5px dashed black;
+}
+.mutualise-cadre div article .prix {
+	font-size: 1.2em;
+	font-weight: bold;
+	font-family: 'Candal', sans-serif;
+	color: #626669;
+}
+.mutualise-cadre div article button {
+	background-color: #fb8b9b;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-decoration: none;
+	font-size: 20px;
+	width: 100%;
+}
+
+
+
+/*============ CONTACT ============== */
+
+span {
+	color: black;
+}
+em {
+	color: black;
+}
+
+
+/*================LICENCE=============== */
+
+	footer{
+		background-color: #213e4e;
+	}
+	.nav-footer {
+		display: flex;
+	}
+
+	.nav-footer a {
+		color: white;
+		text-decoration: none;
+	}
+
+	#licence {
+		display: block;
+		text-align: center;
+		padding: 25px;
+	}
+
+	#licence img {
+		width: 50px;
+	}
+
+	#licence a {
+		text-decoration: none;
+		color: white;
+	}
